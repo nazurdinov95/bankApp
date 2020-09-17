@@ -89,3 +89,4 @@ func Total(cards []types.Card) types.Money {
 
 	return total
 }
+
