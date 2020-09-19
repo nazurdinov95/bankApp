@@ -1,6 +1,8 @@
 package payment
 
-import "bank/pkg/bank/types"
+import (
+	"bank/pkg/bank/types"
+)
 
 // Max returns max payment.
 func Max(payments []types.Payment) types.Payment  {
@@ -12,3 +14,4 @@ func Max(payments []types.Payment) types.Payment  {
 	}
 	return max
 }
+
